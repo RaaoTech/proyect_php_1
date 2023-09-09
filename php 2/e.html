@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<style>
+    ul {
+        width: auto;
+        height: auto;
+        margin: 25px;
+        padding: 0px;
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    li {
+        display: inline-grid;
+        width: auto;
+        height: auto;
+        justify-content: center;
+        background: #e3b8ff;
+        padding: 5%;
+        border-radius: 5%;
+    }
+    img {
+        width: 199px;
+        height: 199px;
+        border-radius: 5%;
+        border-color: white;
+    }
+    p {
+        margin: 0px;
+        display: grid;
+        justify-content: center;
+        font-family: fantasy;
+    }
+    form{
+        display: grid;
+        justify-content: center;
+    }
+</style>
+<body>
+    <form action="main.php">
+        <input type="number" name="Nombre">
+       
+        <button type="submit" >Enviar</button>
+
+
+        <ul>
+
+            <li id='PerrosCaliente'>
+
+                <img src='/imagenes/perroCaliente.jpg' alt='perroCaliente'>
+                <h2 class='nombre'>Perros Caliente</h2>
+                <p class='descuento'>35%</p>
+                <input type='number' name='Cantidad'>
+
+
+            </li>
+
+        </ul>
+
+        <button type="submit" >Comprar</button>
+
+
+    </form>
+    
+</body>
+</html>
