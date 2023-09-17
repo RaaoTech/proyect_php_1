@@ -1,0 +1,14 @@
+{
+    "name": "tu/formulario",
+    "description": "Descripción de tu proyecto",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Rafael",
+            "email": "R440gz@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.0"
+    }
+} 

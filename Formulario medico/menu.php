@@ -76,7 +76,7 @@
                 <!-- Botones para mostrar/ocultar los divs -->
                 <?php foreach ($pruebas as $indice => $prueba): ?>
 
-                    <button class="boton" onclick="mostrarOcultarDiv('<?=$prueba?>')"><?=$prueba?></button>
+                    <button class="boton" type="button" onclick="mostrarOcultarDiv('<?=$prueba?>')"><?=$prueba?></button>
 
                 <?php endforeach ?>
 
